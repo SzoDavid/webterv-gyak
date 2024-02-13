@@ -1,0 +1,33 @@
+- doctype
+- `<html>`
+    - lang
+- `<head>`
+    - `<title>`
+    - `<meta charset="UTF-8"/>`
+    - `<meta name="author" content="Próba Ödön"/>`
+    - `<meta name="description" content="Ödön blogoldala"/>`
+    - `<meta name="keywords" content="webtervezés,webterv,HTML,CSS,PHP"/>`
+    - `<link rel="stylesheet" href="valami.css"/>`
+    - `<link rel="icon" href="valami.png"/>`
+    - `<style>`
+    - `<script>`
+- `<body>`
+    - `<p>`
+    - `<h1>`...`<h6>`
+- `<img>`
+    - src
+    - alt
+    - title
+    - width & height
+        - csak egyik esetén automatikus
+- `<a>`
+    - href
+        - weboldal
+        - file
+        - lapon belül **id**
+    - target
+        - _self
+        - _blank
+    - title
+- `<div>` 
+- `<span>`
