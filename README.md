@@ -1,0 +1,3 @@
+# Webterv gyak fájlok
+
+Ha a gyakomon vagy és ezt megtaláltad, upsz...
