@@ -1,0 +1,32 @@
+body {
+    background-color: beige;
+    margin: 50px;
+}
+
+* {
+    font-family: fantasy;
+}
+
+table {
+    border: thin solid black;
+    margin: auto;
+}
+
+td {
+    border: thin solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    border: medium solid black;
+    padding: 5px;
+}
+
+.cimsor {
+    color: red;
+}
+
+li {
+    font-style: italic;
+}
