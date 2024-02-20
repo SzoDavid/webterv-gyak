@@ -1,0 +1,32 @@
+q {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+blockquote {
+    font-style: italic;
+    color: red;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+table, th, td {
+    border-width: thin;
+    border-style: dashed;
+    border-color: black;
+    /*border-collapse: collapse;*/
+    /*padding: 10px;*/
+    /*margin-top: 50px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*background-color: beige;*/
+}
+
+body {
+    /*background-image: url("cica.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+}
+

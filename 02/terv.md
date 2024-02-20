@@ -7,7 +7,6 @@ bodyról lesz szó
 - `<p>..</p>` bekezdés
 - `<br>`
 - `<hr>`
-- `<pre>...</pre>`
 - `<em>...</em>`
 - `<strong>...</strong>`
 - `<sub>...</sub>`
