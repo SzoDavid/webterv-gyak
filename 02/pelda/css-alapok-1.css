@@ -23,6 +23,17 @@ table, th, td {
     /*background-color: beige;*/
 }
 
+ul, ol {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.a {
+    list-style-position: inside;
+}
+
 body {
     /*background-image: url("cica.png");*/
     /*background-repeat: no-repeat;*/
