@@ -96,3 +96,24 @@ Extra:
 - `caption-side: bottom`
 - `vertical-align: middle`: függőleges
 - `text-align: center`: vízszintesen
+
+ ## Helyzetmegadás
+
+ - `position`
+  - `static`: default
+  - `relative`: defaulthoz képest elmozdítva
+  - `absolute`: a legközelebbi nem static ős belső széléhez képest
+  - `fixed`: görgetéskor helyén marad
+
+- `top`
+- `bottom`
+- `left`
+- `right`
+
+- `z-index`
+
+- `float`: a tartalom a másik irányból körbefutja
+  - `left`
+  - `right`
+  - `none`
+
