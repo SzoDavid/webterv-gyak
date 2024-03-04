@@ -16,6 +16,18 @@
         input, select, textarea, fieldset {
             margin-bottom: 10px;
         }
+
+        input[type=radio] {
+            margin-right: 10px;
+        }
+
+        input:required {
+            border-color: red;
+        }
+
+        input:focus {
+            background-color: beige;
+        }
     </style>
 </head>
 <body>
@@ -34,7 +46,7 @@
         <input type="password" name="password" id="password"><br>
 
         <label for="number">Szám:</label><br>
-        <input type="number" name="number" id="number" min="-100" max="100"><br>
+        <input type="number" name="number" id="number" min="-10" max="10"><br>
 
         <label for="range">Intervallum:</label><br>
         <input type="range" name="range" id="range" min=1 max=5 step=1 value=3><br>
