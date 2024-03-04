@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input[type=radio] {
+            margin-right: 10px;
+        }
+
+        input:required {
+            border-color: red;
+        }
+
+        footer {
+            color: gray;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Adategyeztetés</h1>
+</header>
+<main>
+    <form method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Azonosítási adatok</legend>
+
+            <label for="email">E-mail cím: (kötelező)</label><br>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="password">Jelszó: (kötelező)</label><br>
+            <input type="password" name="password" id="password" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Egyéb adatok</legend>
+
+            <label for="link">Concierge weboldala:</label><br>
+            <input type="url" name="link" id="link"><br>
+
+            <label for="name">Név:</label><br>
+            <input type="text" name="name" id="name" placeholder="Próba Ödön" maxlength="80"><br>
+
+            <label for="birth">Születés dátuma:</label><br>
+            <input type="date" name="birth" id="birth"><br>
+
+            <label for="number">Kedvenc szám:</label><br>
+            <input type="number" name="number" id="number" min="0" max="1000"><br>
+
+            <label for="color">Kedvenc szín:</label><br>
+            <input type="color" name="color" id="color"><br>
+
+            <label for="meme">Kedvenc meme:</label><br>
+            <input type="file" name="meme" id="meme" accept="image/*"><br>
+
+            <label for="opinion">Mennyire élvezed ezt a gyakot?</label><br>
+            <input type="range" min=1 max=5 step=1 name="opinion" id="opinion" value=5><br>
+
+            <label for="axerwaliakok">Mit gondolsz az axerwáliakokról?</label><br>
+            <textarea name="axerwaliakok" id="axerwaliakok" cols=100 rows=10></textarea><br>
+
+            <label for="reasons">Mit akarnak az axerwáliakok?</label><br>
+            <select name="reasons" id="reasons" multiple>
+                <option value="cows">Teheneket</option>
+                <option value="mirrors">Összetörni a tükröket</option>
+                <option value="ladders">Átmenni a létra alatt</option>
+                <option value="cats">Macskákat</option>
+                <option value="olga">Olgát</option>
+                <option value="doors">Ajtókat</option>
+                <option value="5">Webterv 5-öst</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Hanyasod lesz webtervből?</legend>
+
+            <label for="5"><input type="radio" name="result" id="5" value="5">5</label><br>
+            <label for="4"><input type="radio" name="result" id="4" value="4">4</label><br>
+            <label for="3"><input type="radio" name="result" id="3" value="3">3</label><br>
+            <label for="2"><input type="radio" name="result" id="2" value="2">2</label><br>
+            <label for="1"><input type="radio" name="result" id="1" value="1" disabled>1</label><br>
+        </fieldset>
+
+        <input type="submit" value="Küldés">
+        <input type="reset" value="Visszaállítás">
+    </form>
+</main>
+<footer>
+    <p>Lassan jön a php :D</p>
+</footer>
+</body>
+</html>
