@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kedvenceim</title>
+    <style>
+        *::selection {
+            background-color: lightgreen;
+        }
+
+        @keyframes rgb {
+            0% { color: red; }
+            25% { color: yellow; }
+            50% { color: green; }
+            75% { color: cyan; }
+            100% { color: blue; }
+        }
+
+        h1 {
+            text-shadow: 1px 1px 3px gray;
+            animation-name: rgb;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        h2::first-letter {
+            color: green;
+        }
+
+        header, main {
+            margin: auto;
+            width: fit-content;
+        }
+
+        section {
+            margin-top: 50px;
+            padding: 25px;
+            background-color: beige;
+            border-radius: 20px;
+            box-shadow: 0 0 40px 0 gray;
+        }
+
+        section:hover {
+            transition: all 500ms ease;
+            box-shadow: 0 0 40px 0 lightgreen;
+            transform: scale(1.1, 1.1);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Kedvenceim</h1>
+</header>
+<main>
+    <section>
+        <h2>Kedvenc dalom</h2>
+        <audio controls>
+            <source src="resources/audio/song.mp3" type="audio/mpeg">
+            <source src="resources/audio/song.ogg" type="audio/ogg">
+            A böngésző nem támogatja az audió elemet.
+        </audio>
+    </section>
+    <section>
+        <h2>Kedvenc videóklippem</h2>
+        <video controls width="420" height="315">
+            <source src="resources/video/video.mp4" type="video/mp4">
+            A böngésző nem támogatja a videó elemet.
+        </video>
+    </section>
+    <section>
+        <h2>Kedvenc youtube videóm</h2>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/wTfdxU1JoEY"></iframe>
+    </section>
+</main>
+</body>
+</html>
